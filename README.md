@@ -1,12 +1,21 @@
 # kafka-test
+
 Let's play with kafka
+
+# prerequisites
+
+[bazel](https://bazel.build/)
+
+[docker](https://www.docker.com/)
 
 # build
 
-`bazel run @maven//:pin`
-
-`bazel build kafka-test-binary`
+```bazel build kafka-test-binary```
 
 # run
 
-`bazel run kafka-test-binary`
+start kafka:
+```docker-compose up```
+
+start test application
+```bazel run kafka-test-binary```
