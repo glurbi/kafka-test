@@ -1,0 +1,159 @@
+{
+    "dependency_tree": {
+        "conflict_resolution": {},
+        "dependencies": [
+            {
+                "coord": "com.github.luben:zstd-jni:1.4.3-1",
+                "file": "v1/https/repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1.jar",
+                    "https://jcenter.bintray.com/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1.jar"
+                ],
+                "sha256": "8370149f5bd16a83d27240a8ce5a64204f3c70647ed180801dcf95f7be27ef87"
+            },
+            {
+                "coord": "com.github.luben:zstd-jni:jar:sources:1.4.3-1",
+                "file": "v1/https/repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1-sources.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1-sources.jar",
+                    "https://jcenter.bintray.com/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1-sources.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1-sources.jar"
+                ],
+                "sha256": "8c695df6b69bf6ae43027083ecde6931a20e78b9542f508b7e0f5e5f7ad7e335"
+            },
+            {
+                "coord": "org.apache.kafka:kafka-clients:2.4.1",
+                "file": "v1/https/repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar",
+                "directDependencies": [
+                    "com.github.luben:zstd-jni:1.4.3-1",
+                    "org.lz4:lz4-java:1.6.0",
+                    "org.slf4j:slf4j-api:1.7.28",
+                    "org.xerial.snappy:snappy-java:1.1.7.3"
+                ],
+                "dependencies": [
+                    "com.github.luben:zstd-jni:1.4.3-1",
+                    "org.xerial.snappy:snappy-java:1.1.7.3",
+                    "org.slf4j:slf4j-api:1.7.28",
+                    "org.lz4:lz4-java:1.6.0"
+                ],
+                "url": "https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar",
+                    "https://jcenter.bintray.com/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar"
+                ],
+                "sha256": "a2be15ae6d354b769713ae0cbb3184f225aa16fc98205b1eb24afd9fc2a360d9"
+            },
+            {
+                "coord": "org.apache.kafka:kafka-clients:jar:sources:2.4.1",
+                "file": "v1/https/repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-sources.jar",
+                "directDependencies": [
+                    "com.github.luben:zstd-jni:jar:sources:1.4.3-1",
+                    "org.lz4:lz4-java:jar:sources:1.6.0",
+                    "org.slf4j:slf4j-api:jar:sources:1.7.28",
+                    "org.xerial.snappy:snappy-java:jar:sources:1.1.7.3"
+                ],
+                "dependencies": [
+                    "org.xerial.snappy:snappy-java:jar:sources:1.1.7.3",
+                    "com.github.luben:zstd-jni:jar:sources:1.4.3-1",
+                    "org.lz4:lz4-java:jar:sources:1.6.0",
+                    "org.slf4j:slf4j-api:jar:sources:1.7.28"
+                ],
+                "url": "https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-sources.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-sources.jar",
+                    "https://jcenter.bintray.com/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-sources.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1-sources.jar"
+                ],
+                "sha256": "0a77a1ec82621ddcec02e8d2d2b38a5f3324b867afd80038b006ffe30f99091d"
+            },
+            {
+                "coord": "org.lz4:lz4-java:1.6.0",
+                "file": "v1/https/repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar",
+                    "https://jcenter.bintray.com/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar"
+                ],
+                "sha256": "d229545aa2b1d5203c876614bdbcffcacc303697f4f8f26f764e1d6c1ed2e416"
+            },
+            {
+                "coord": "org.lz4:lz4-java:jar:sources:1.6.0",
+                "file": "v1/https/repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-sources.jar",
+                    "https://jcenter.bintray.com/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-sources.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-sources.jar"
+                ],
+                "sha256": "db7727c82c150cec38a422b9692f6431150ea2c0c0d0c723bdf7fe6946149041"
+            },
+            {
+                "coord": "org.slf4j:slf4j-api:1.7.28",
+                "file": "v1/https/repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar",
+                    "https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar"
+                ],
+                "sha256": "fb6e4f67a2a4689e3e713584db17a5d1090c1ebe6eec30e9e0349a6ee118141e"
+            },
+            {
+                "coord": "org.slf4j:slf4j-api:jar:sources:1.7.28",
+                "file": "v1/https/repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28-sources.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28-sources.jar",
+                    "https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28-sources.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28-sources.jar"
+                ],
+                "sha256": "b1b8bfa4f2709684606001685d09ef905adc1b72ec53444ade90f44bfbcebcff"
+            },
+            {
+                "coord": "org.xerial.snappy:snappy-java:1.1.7.3",
+                "file": "v1/https/repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar",
+                    "https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar"
+                ],
+                "sha256": "7eea31c0a25d35cd092d8aec08bed04f22152409b58d63d43839074a9ab7ab97"
+            },
+            {
+                "coord": "org.xerial.snappy:snappy-java:jar:sources:1.1.7.3",
+                "file": "v1/https/repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3-sources.jar",
+                "mirror_urls": [
+                    "https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3-sources.jar",
+                    "https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3-sources.jar",
+                    "https://cognite.jfrog.io/cognite/libs-release-local/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3-sources.jar"
+                ],
+                "sha256": "08398a9fc461f267ecb58af61cc2b98ddb470c00cb6fb39b88c745f38cd33803"
+            }
+        ],
+        "version": "0.1.0",
+        "__AUTOGENERATED_FILE_DO_NOT_MODIFY_THIS_FILE_MANUALLY": -1114216925
+    }
+}

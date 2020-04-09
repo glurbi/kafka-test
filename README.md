@@ -1,2 +1,12 @@
 # kafka-test
-Let's get to learn kafka
+Let's play with kafka
+
+# build
+
+`bazel run @maven//:pin`
+
+`bazel build kafka-test-binary`
+
+# run
+
+`bazel run kafka-test-binary`

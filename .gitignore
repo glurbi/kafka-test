@@ -1,0 +1,5 @@
+.ijwb
+bazel-bin
+bazel-kafka-test
+bazel-out
+bazel-testlogs
