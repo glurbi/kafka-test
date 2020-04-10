@@ -10,9 +10,31 @@ kt_jvm_library(
 )
 
 kt_jvm_binary(
-    name = "kafka-test-binary",
+    name = "create-topic",
     srcs = glob(["**/*.kt"]),
-    main_class = "glurbi.kafka.test.Main",
+    main_class = "glurbi.kafka.test.CreateTopic",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//:kafka-test-library",
+        "@maven//:org_apache_kafka_kafka_clients",
+    ],
+)
+
+kt_jvm_binary(
+    name = "delete-topic",
+    srcs = glob(["**/*.kt"]),
+    main_class = "glurbi.kafka.test.DeleteTopic",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//:kafka-test-library",
+        "@maven//:org_apache_kafka_kafka_clients",
+    ],
+)
+
+kt_jvm_binary(
+    name = "compute-sum",
+    srcs = glob(["**/*.kt"]),
+    main_class = "glurbi.kafka.test.ComputeSum",
     visibility = ["//visibility:public"],
     deps = [
         "//:kafka-test-library",
